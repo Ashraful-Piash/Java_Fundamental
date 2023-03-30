@@ -2,6 +2,14 @@ package com.piash;
 
 public class StringPractice {
     public static void main(String[] args) {
-        System.out.println("got it");
+        String s1 = "Hello";
+        String s2 = "Hello";
+        String s3 = new String("Hello");
+
+        if(s1 == s3){
+            System.out.println("equal");
+        }else{
+            System.out.println("not equal");
+        }
     }
 }
