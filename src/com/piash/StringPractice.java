@@ -11,5 +11,7 @@ public class StringPractice {
         }else{
             System.out.println("not equal");
         }
+        System.out.println(s1.length());
+        System.out.println(s2.charAt(2));
     }
 }
