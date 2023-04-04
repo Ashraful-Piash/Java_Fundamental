@@ -13,5 +13,6 @@ public class StringPractice {
         }
         System.out.println(s1.length());
         System.out.println(s2.charAt(2));
+        System.out.println(s2.indexOf(1));
     }
 }
