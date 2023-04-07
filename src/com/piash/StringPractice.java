@@ -5,7 +5,7 @@ public class StringPractice {
         String s1 = "Hello";
         String s2 = "Hello";
         String s3 = new String("Hello");
-        String s4 = "I love programming";
+        String s4 = "I love programming. programming is fun. I have to be good at programming." ;
         String s5 = s4.replace("programming", "java");
 
         if(s1 == s3){
