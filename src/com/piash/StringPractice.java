@@ -7,6 +7,7 @@ public class StringPractice {
         String s3 = new String("Hello");
         String s4 = "I love programming. programming is fun. I have to be good at programming." ;
         String s5 = s4.replace("programming", "java");
+        String s6 = s1.replace("Hello", "hi");
 
         if(s1 == s3){
             System.out.println("equal");
